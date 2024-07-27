@@ -1,0 +1,29 @@
+span{
+    cursor: pointer;
+}
+.list_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+   
+}
+.row{
+    --bs-gutter-x: 0.5rem;
+}
+.update{
+    color: rgb(17, 184, 5);
+}
+.delete{
+    color: rgb(236, 35, 9);
+}
+.card-body{
+    text-transform: capitalize;
+}
+textarea{
+    outline: none;
+}
+.card_header{
+   padding: 10px 0px 0px 15px;
+   text-transform: capitalize
+}

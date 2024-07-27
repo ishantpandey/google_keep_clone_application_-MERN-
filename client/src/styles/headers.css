@@ -1,0 +1,31 @@
+.nav-item{
+    font-size: 18px;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+  
+  }
+ li .active_link {
+    
+    border-bottom: 2px solid rgb(114, 233, 122);
+ }
+
+  strong{
+    color: rgb(45, 47, 47);
+   
+    
+  }
+ 
+  .navbar{
+   background-color: rgb(252, 252, 252);
+   border-bottom: 1px solid rgb(200, 197, 197);
+  }
+  .left-content{
+    height: 35px;
+  }
+  .logo-img{
+   
+    width: 28px;
+   margin-right: 10px;
+  }
+ 
