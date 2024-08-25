@@ -46,7 +46,7 @@ function Profile() {
                 <div class="row">
                     <div class="col-md-4">
                         <div class="profile-img">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog" alt=""/>
+                            <img src="/logo192.png" alt=""/>
                             
                         </div>
                     </div>
@@ -56,7 +56,7 @@ function Profile() {
                                        {val[0].names}
                                     </h5>
                                     <h6>
-                                        Web Developer and Designer
+                                        MERN Stack Developer
                                     </h6>
                                  
                             <ul class="nav nav-tabs" id="myTab" role="tablist">

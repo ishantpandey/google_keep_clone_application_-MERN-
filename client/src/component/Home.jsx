@@ -27,7 +27,9 @@ function Home() {
   const insertData=async(e)=>{
    
     e.preventDefault()
+    
     if(updatebtn){
+      
      if( val.desc=='') {toast.warning("Please insert an item first")} 
      else{ 
     const inserItem = await fetch("http://localhost:8000/insertitem", {
@@ -167,11 +169,12 @@ const updatedlist=async(itemid)=>{
     <>
     <div className="container-fluid mt-5">
       <div className="row  ">
-        <div className='col-2 col-md-1 sidebar '>
-          { LogedIn?  <Sidebar/> : null}
+        { LogedIn?
+        <div className='col-2 col-md-1  sidebar '>
+            <Sidebar/> 
          
-        </div>
-        <div className='col-10 col-md-11 center'>
+        </div> :null}
+        <div className='col-10 col-md-11 mx-5 center'>
         <div className='container-fluid'>
           <div className='row '>
           <div className=' col-11 col-md-7 mt-5 center mx-auto'>

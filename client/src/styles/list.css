@@ -17,6 +17,7 @@ span{
 .delete{
     color: rgb(236, 35, 9);
 }
+
 .card-body{
     text-transform: capitalize;
 }
