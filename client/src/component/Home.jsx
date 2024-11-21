@@ -204,7 +204,7 @@ const updatedlist=async(itemid)=>{
       {
         (list?.length>0) ? ( list.map((val,ind)=>{
           return <List key={ind} id={val._id} desc={val.desc} title={val.title} user={val.users} time={val.createdAt}deleteItem={deleteItem} updateItem={updateItem}/>
-        })):<div className='col-12 gx-1 col-md-6 mx-auto center  '>
+        })):<div className='col-10 gx-1 col-md-4 mx-auto center  '>
           <img src={img}  alt=''  className='empty-img img img-fluid'/>
         </div>
        

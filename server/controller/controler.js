@@ -26,6 +26,8 @@ const homepage=async(req,res)=>{
    }
   }
 const registerPage=async(req,res)=>{
+  console.log(req.body);
+  
     const haspassword= await bcrypt.hash(req.body.password,10)
    
   await Login.create({
@@ -42,7 +44,8 @@ const registerPage=async(req,res)=>{
 }
 const loginPage=async(req,res)=>{
     const email=req.body.email;
-   
+    console.log(email);
+    
     try {
      
         const result = await Login.findOne({email})

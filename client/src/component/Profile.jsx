@@ -46,7 +46,7 @@ function Profile() {
                 <div class="row">
                     <div class="col-md-4">
                         <div class="profile-img">
-                            <img src="/logo192.png" alt=""/>
+                            <img src="https://cdn-icons-png.flaticon.com/512/21/21104.png" alt=""/>
                             
                         </div>
                     </div>
